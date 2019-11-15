@@ -27,7 +27,7 @@ public class DingdingServiceImpl implements DingdingService {
     private String url = "https://oapi.dingtalk.com/sns/getuserinfo_bycode";
 
     @Value("#{propertiesReader[yourAppId]}")
-    private String yourAppId = "dingoaba0k0d4rmc7c1tim";
+    private String yourAppId ;
 
     @Value("#{propertiesReader[yourAppSecret]}")
     private String yourAppSecret;
